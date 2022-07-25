@@ -2,9 +2,9 @@
 
 * The vertices will be specified as integers from 0 to n-1, where n is the number of vertices.
 
-Edges may be specified either by the two endpoints (that is, by the source and target), or by some abstract data type Edge_id (that data type may be a pointer or reference to the edge representation, but without exposing the implementation details of the graph).
+* Edges may be specified either by the two endpoints (that is, by the source and target), or by some abstract data type Edge_id (that data type may be a pointer or reference to the edge representation, but without exposing the implementation details of the graph).
 
-Additionally, create a map that associates to an edge an integer value (for instance, a cost).
+* Additionally, create a map that associates to an edge an integer value (for instance, a cost).
 
 ### Required operations:
 
