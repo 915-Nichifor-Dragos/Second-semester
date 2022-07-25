@@ -1,1 +1,1 @@
-# Second-semester
+- Here you can find my personal projects at DSA (Data Structures and Algorithms), OOP (Object Oriented Programming), OS (Operating Systems) and Graph Algorithms.
