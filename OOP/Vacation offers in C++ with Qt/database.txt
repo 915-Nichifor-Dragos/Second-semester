@@ -1,0 +1,7 @@
+Sports Festival,Sports,2021/01/06,20:30,202,https://www.sportsfestival.com/
+Music Concert,ACDC,2021/10/20,23:15,1003,https://www.acdc.com/
+O noapte furtunoasa,Theater,2021/10/23,11:40,300,https://www.teatrulnationalcluj.ro/
+Concert Tzanca Uraganu,Club Tranqilla,2022/06/12,00:30,2000,https://open.spotify.com/artist/5h0wBmd25qPcGSInl3dp66
+Workshop,Develop new skills,2022/12/30,13:00,300,https://www.ateliereleilbah.ro/blog/ce-inseamna-workshop-si-cum-te-ajuta-pentru-dezvoltarea-ta-personala-si-profesionala/
+Mihnea urat,Mihnea e foarte urat,2022/10/21,12:30,10,https://www.facebook.com/photo/?fbid=470188686666360&set=pob.100011231970803
+321312,jfjfjyt,2021/12/20,14:32,432,64564
