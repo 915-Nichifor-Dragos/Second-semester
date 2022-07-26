@@ -1,0 +1,6 @@
+Red Sun,Alpha,3,10,2000000
+Astrix,Beta,8,15,4000000
+X-Sun,Gamma,4,5,3000000
+Strass,Gamma,5,7,5000000
+Blue Sun,Theta,9,12,1000000
+Y-Sun,Theta,20,18,300000000

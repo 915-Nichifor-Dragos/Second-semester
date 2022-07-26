@@ -1,0 +1,5 @@
+Michael,Alpha
+John,Beta
+Samuel,Alpha
+Ana,Theta
+Simon,Gamma

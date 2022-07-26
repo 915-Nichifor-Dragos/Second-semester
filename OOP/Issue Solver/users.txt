@@ -1,0 +1,4 @@
+Iulia,programmer
+Andrei,tester
+Sebastian,tester
+Maria,programmer

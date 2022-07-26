@@ -1,0 +1,4 @@
+Application Crashing,open,Andrei,
+Windows not working,closed,Sebastian,Iulia
+Application not Responding,closed,Sebastian,Maria
+Crash,open,Andrei,Maria
