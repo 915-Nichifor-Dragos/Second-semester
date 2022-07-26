@@ -1,0 +1,14 @@
+A10,Andrei,andrei@gmail.com,1
+A11,Flavius,flavius@gmail.com,3,DSA,Matei
+A12,Andreea,andreea@gmail.com,1,OS,Andrei
+A13,Iulia,iulia@gmail.com,2,OOP,Matei
+A14,Ilinca,ilinca@gmail.com,2
+A15,Carmen,carmen@gmail.com,3,OOP,Silviu
+A16,Mariana,mariana@gmail.com,2,OOP,Silviu
+A17,Mara,mara@gmail.com,1,SDA,Elena
+A18,Ana,ana@gmail.com,3,DS,Elena
+A19,Razvan,razvan@gmail.com,2,DS
+A20,Marius,marius@gmail.com,3,SDA,Matei
+A21,Monica,monica@gmail.com,3,PO,Matei
+A22,Marco,marco@gmail.com,2
+A23,Rodica,rodica@gmail.com,1,DS,Andrei

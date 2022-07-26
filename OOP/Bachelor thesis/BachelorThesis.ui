@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BachelorThesisClass</class>
+ <widget class="QMainWindow" name="BachelorThesisClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BachelorThesis</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QListWidget" name="coordinatedList"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="editButton">
+            <property name="text">
+             <string>Edit student</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="approveButton">
+            <property name="text">
+             <string>Approve</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QListWidget" name="allStudentsList"/>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="searchLabel">
+              <property name="text">
+               <string>Name:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="searchLineEdit"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addStudent">
+            <property name="text">
+             <string>Coordinate</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>635</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="BachelorThesis.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>searchLineEdit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>BachelorThesisClass</receiver>
+   <slot>changeSearch()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>540</x>
+     <y>390</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>859</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addStudent</sender>
+   <signal>clicked()</signal>
+   <receiver>BachelorThesisClass</receiver>
+   <slot>addCoordinate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>579</x>
+     <y>382</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>612</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>approveButton</sender>
+   <signal>clicked()</signal>
+   <receiver>BachelorThesisClass</receiver>
+   <slot>approveThesis()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>380</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>editButton</sender>
+   <signal>clicked()</signal>
+   <receiver>BachelorThesisClass</receiver>
+   <slot>updateStudent()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>51</x>
+     <y>382</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>36</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>changeSearch()</slot>
+  <slot>addCoordinate()</slot>
+  <slot>approveThesis()</slot>
+  <slot>updateStudent()</slot>
+ </slots>
+</ui>
