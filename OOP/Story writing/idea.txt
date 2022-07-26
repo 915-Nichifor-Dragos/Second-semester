@@ -1,0 +1,5 @@
+Create a castle,Accepted,Andrei,1
+Draw a painting,Proposed,Andrei,2
+Make Ana princess,Accepted,Mark,3
+Remove the prince crown,Accepted,Sebastian,2
+Make the introduction shorter,Proposed,Ilie,1
